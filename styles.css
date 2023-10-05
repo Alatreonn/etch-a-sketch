@@ -14,7 +14,7 @@ body {
 }
 
 .padCell {
-    border: 1px solid #d8d8d8;
+    border: 1px solid #adadad;
     background-color: #a2a2a2;
 }
 
@@ -27,13 +27,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
-    height: 900px;
+    height: 950px;
     width: 1200px;
 
     border: 1px solid #c1000d;
     background-color: #c1000d;
     border-radius: 10%;
+}
+
+.padTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding-bottom: 0px;
+
+    color: gold;
+    filter: drop-shadow(1px 1px 2px #000);
+}
+
+.padEAS {
+    font-size: 40px;
+}
+
+.padMagic,
+.padScreen {
+    margin: 50px 0;
+    font-size: 20px;
 }
 
 .padInnerContainer {
@@ -44,4 +66,30 @@ body {
 
     background-color: white;
     border: 1px solid black;
+}
+
+.padButtonLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 25px;
+    color: gold;
+    filter: drop-shadow(1px 1px 2px #000);
+}
+
+.padButtons {
+    display: flex;
+    margin: 20px 0;
+    gap: 700px;
+}
+
+.padButton {
+    display: flex;
+    padding: 50px 50px;
+    border-radius: 100%;
+
+    font-size: 24px;
+    filter: drop-shadow(1px 1px 2px #000);
 }
