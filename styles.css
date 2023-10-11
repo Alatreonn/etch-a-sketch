@@ -85,7 +85,8 @@ body {
     gap: 700px;
 }
 
-.padButton {
+.padButtonReset,
+.padButtonRainbow {
     display: flex;
     padding: 50px 50px;
     border-radius: 100%;
