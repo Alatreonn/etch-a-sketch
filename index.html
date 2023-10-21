@@ -18,13 +18,16 @@
                     <div class="padScreen">SCREEN</div>
             </div>
             <div class="padInnerContainer">
-                <div class="padCell">
-                </div>
             </div>
-            <div class="padButtons">
+            <div class="padButtonsContainer">
                 <div class="padButtonLabel">RESET
                     <button class="padButtonReset"></button></div>
-                <div class="padButtonLabel">RAINBOW
+                <div class="padButtonLabel">RESIZE
+                <div class="padInputContainer">
+                    <input class="padInputResize" type="text" placeholder="Between 2 and 100" onchange="resizeGrid(this.value)">
+                    <button class="padButtonResize"></button></div>
+                </div>
+                <div class="padButtonLabelColor">RAINBOW
                     <button class="padButtonRainbow"></button></div>
             </div>
         </div>

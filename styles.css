@@ -63,9 +63,10 @@ body {
     border: 1px solid black;
 }
 
-.padButtonLabel {
+.padButtonLabel,
+.padButtonLabelColor {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 
@@ -74,10 +75,23 @@ body {
     filter: drop-shadow(1px 1px 2px #000);
 }
 
-.padButtons {
+.padButtonsContainer {
     display: flex;
     margin: 20px 0;
-    gap: 700px;
+    gap: 350px;
+}
+
+.padInputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.padButtonResize {
+    display: flex;
+    padding: 10px 50px;
+
+    filter: drop-shadow(1px 1px 2px #000);
 }
 
 .padButtonReset,
@@ -88,4 +102,10 @@ body {
 
     font-size: 24px;
     filter: drop-shadow(1px 1px 2px #000);
+}
+
+.padButtonReset:hover,
+.padButtonRainbow:hover,
+.padButtonResize:hover {
+    cursor: pointer;
 }
